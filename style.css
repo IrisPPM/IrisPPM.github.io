@@ -1,11 +1,12 @@
+body{
+    background-color: rgb(250,249,246);
+}
 .home {
     background-image: url(./Penny-landingpage.png);
     display: flex;
     justify-content: flex-end;
     height: 100vh;
-    color: rgb(250,249,246);
-   
-  
+    color: rgb(250,249,246);  
 }
 header{
     background-color: rgb(169,176,203);
@@ -69,7 +70,7 @@ a{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:hover {
     color: rgb(250,249,246);
 }
-.Quiensoy{
+.Copywriting .Trabajarconmigo{
     padding: 50px;
     align-items: center;
     justify-content: center;
@@ -78,3 +79,88 @@ a{
 .row.no-gutters{
     height: 100vh;
 }
+.card-img{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.col-md-8{
+    justify-content: center;
+    padding: 30px;
+    color:rgb(153,103,103);
+}
+.card {
+    border: none;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.servicios{
+background-image: url(./Background.png);
+    height: 100vh;
+    color:rgb(250,249,246); 
+    text-align: center; 
+}
+.servicios h2{
+    padding-top: 10px;
+}
+
+ .card-deck-servicios{
+display: flex;
+flex-direction: row;
+text-align: justify;
+justify-content: space-around;
+}
+
+.cardservicios{
+    background-color: rgb(250,249,246);
+    color:rgb(153,103,103);
+    margin: 30px;
+    width: 25%;
+}
+.cardservicios img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.container{
+   background-color:rgba(169, 176, 203, 0.932);
+   padding: 20px;
+   color: rgb(250,249,246);
+   height: 100vh;
+   margin-bottom: 40px;
+}
+form{
+   background-color:rgba(238, 182, 180, 0.712);
+   padding: 30px;
+   margin: 30px;
+   
+}
+.informacioncontacto{
+    color:rgb(250,249,246) ;
+    text-align: justify;
+    margin:30px;
+}
+
+.btn-primary {
+   background-color:rgba(153,103,103,0.6) !important;
+   color:rgb(250,249,246);
+   border: 0px;
+   margin-top: 5px;
+}
+.btn-primary:hover {
+    color:rgb(250,249,246);
+    font-weight: bold;
+    background-color:rgba(153,103,103,0.6);
+ }
+ .informacioncontacto h5{
+font-weight: normal;
+}
+
+.alert.alert-success{
+    display: none;
+}
+.alert.alert-success.mostrar{
+    display:block;
+}
+    
