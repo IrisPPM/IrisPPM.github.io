@@ -5,8 +5,13 @@ body{
     background-image: url(./Penny-landingpage.png);
     display: flex;
     justify-content: flex-end;
-    height: 100vh;
+    /*height: 100vh;*/
     color: rgb(250,249,246);  
+}
+@media (min-width: 992px){
+    .home{
+        height: 100vh;
+    }
 }
 header{
     background-color: rgb(169,176,203);
@@ -32,13 +37,21 @@ a{
 .cardhome{
     background-color: rgba(238, 182, 180, 0.781);
     margin-top: 90px;
-    margin-right: 90px;
+   /* margin-right: 90px;*/
     padding-top:30px;
-    padding-left:20px;
+   /* padding-left:20px; */
     border-radius: 5px;
     text-align: center;
     height: 300px;
+    margin: 30px auto;
 
+}
+
+@media (min-width:992px){
+    .cardhome{
+        margin-right: 90px;
+        padding-left: 20px;
+    }
 }
 
 .card-img-top{
@@ -70,23 +83,27 @@ a{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:hover {
     color: rgb(250,249,246);
 }
-.Copywriting .Trabajarconmigo{
+.Copywriting {
     padding: 50px;
     align-items: center;
     justify-content: center;
 }
-
-.row.no-gutters{
-    height: 100vh;
+.Trabajarconmigo{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: center;
 }
+.Copywriting{
+    text-align: justify;
+}
+
 .card-img{
     justify-content: center;
     align-items: center;
     padding: 30px;
 }
 .col-md-8{
-    justify-content: center;
-    padding: 30px;
     color:rgb(153,103,103);
 }
 .card {
@@ -97,7 +114,6 @@ a{
 
 .servicios{
 background-image: url(./Background.png);
-    height: 100vh;
     color:rgb(250,249,246); 
     text-align: center; 
 }
@@ -115,20 +131,19 @@ justify-content: space-around;
 .cardservicios{
     background-color: rgb(250,249,246);
     color:rgb(153,103,103);
-    margin: 30px;
-    width: 25%;
-}
+    /* margin: 30px; */
+    }
 .cardservicios img{
     margin-left: 30px;
     margin-top: 10px;
 }
 
 .container{
-   background-color:rgba(169, 176, 203, 0.932);
-   padding: 20px;
+    padding: 20px;
    color: rgb(250,249,246);
-   height: 100vh;
-   margin-bottom: 40px;
+   margin-bottom: 10px;
+   
+   
 }
 form{
    background-color:rgba(238, 182, 180, 0.712);
@@ -137,7 +152,7 @@ form{
    
 }
 .informacioncontacto{
-    color:rgb(250,249,246) ;
+    color:rgba(153, 103, 103, 0.856) ;
     text-align: justify;
     margin:30px;
 }
@@ -163,4 +178,30 @@ font-weight: normal;
 .alert.alert-success.mostrar{
     display:block;
 }
+.alert-success{
+    background-color:rgb(250,249,246);
+    color: rgb(153,103,103);
+
+}
+footer{
+    background-color:rgba(238, 182, 180, 0.712);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
+}
+.derechosreservados{
+    text-align: center;
+    padding: 20px;
+    color: rgb(153,103,103);
+}
+.card-text-copy{
+    color: rgb(153,103,103) ;
+    font-size: large;
+    text-align: justify;
+    
+}
+
+.contactoinfo{
+    background-image: url(./Background.png)
+}
